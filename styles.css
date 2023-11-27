@@ -1,0 +1,40 @@
+body{
+    background-color: #ffff4d;
+}
+h1{
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    gap: 50px;
+}
+.images{
+    display: flex;
+    gap: 80px;
+}
+img{
+    width: 150px;
+    height: 200px;
+    
+}
+.btns{
+    display: flex;
+    gap: 20px;
+}
+button{
+    padding: 12px 24px;
+    border: 0;
+    color: white;
+    background-color: black;
+    border-radius: 10px; 
+}
+h2 ,.result{
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
